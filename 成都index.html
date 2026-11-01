@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天府成都 · 一座来了就不想走的城市</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f8f5f0;
+            color: #333;
+            line-height: 1.7;
+        }
+        /* 头部纯色横幅 */
+        .banner {
+            width: 100%;
+            background-color: #9b2226;
+            padding: 40px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 42px;
+            margin-bottom:10px;
+        }
+        .banner p {
+            font-size:18px;
+            opacity:0.95;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        section {
+            margin-bottom:50px;
+        }
+        h2 {
+            color:#9b2226;
+            border-left: 5px solid #9b2226;
+            padding-left:12px;
+            margin-bottom:20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+            gap:24px;
+        }
+        .card {
+            background: #fff;
+            border-radius:12px;
+            padding:16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .card h3 {
+            margin-bottom:8px;
+            color:#552525;
+        }
+        .food-item {
+            background:#fff;
+            padding:18px;
+            border-radius:10px;
+            margin-bottom:12px;
+        }
+        footer {
+            background:#222;
+            color:#ccc;
+            text-align:center;
+            padding:24px;
+            font-size:14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div>
+            <h1>天府成都</h1>
+            <p>锦官城，慢时光，烟火与诗意共生</p>
+        </div>
+    </div>
+    <div class="container">
+        <section>
+            <h2>城市简介</h2>
+            <p>成都，别称蓉城、锦官城，四川省省会，地处成都平原，自古被誉为“天府之国”。
+            这座城市有着三千年不曾中断的古蜀文明底蕴，又有着松弛温暖的市井烟火。
+            茶馆、竹椅、盖碗茶，慢悠悠的生活节奏，是成都独有的气质。
+            它不只有热闹繁华，还有山水、古刹、老街，包容着无数人的理想与日常。</p>
+        </section>
+
+        <section>
+            <h2>打卡胜地</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>宽窄巷子</h3>
+                    <p>由宽巷、窄巷、井巷组成，老川西院落改造而成，是感受老成都街巷氛围的地标。</p>
+                </div>
+                <div class="card">
+                    <h3>武侯祠</h3>
+                    <p>纪念诸葛亮的三国圣地，红墙竹影，古柏苍苍，藏着蜀地千年三国情怀。</p>
+                </div>
+                <div class="card">
+                    <h3>成都大熊猫繁育研究基地</h3>
+                    <p>看国宝大熊猫啃竹子、打滚，来成都几乎必去的地方。</p>
+                </div>
+                <div class="card">
+                    <h3>文殊院</h3>
+                    <p>清净古刹，香火绵长，院内可以喝茶、抄经，非常安静治愈。</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>成都美食</h2>
+            <div class="food-item">
+                <h3>火锅</h3>
+                <p>牛油锅底醇厚香辣，毛肚、鸭肠、黄喉是经典菜品，是成都美食的代表。</p>
+            </div>
+            <div class="food-item">
+                <h3>担担面、钟水饺、抄手</h3>
+                <p>地道川味小吃，红油鲜亮，麻辣鲜香，街边小店味道往往最地道。</p>
+            </div>
+            <div class="food-item">
+                <h3>冰粉、凉糕</h3>
+                <p>吃辣之后的解辣神器，红糖搭配山楂碎、葡萄干，清甜爽口。</p>
+            </div>
+            <div class="food-item">
+                <h3>兔头</h3>
+                <p>成都特色小吃，五香、麻辣两种口味，本地人很爱的零食。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>成都生活</h2>
+            <p>“巴适”是成都人常说的词。晒太阳、坐茶馆摆龙门阵、河边散步。
+            这座城市节奏不急不躁，繁华商圈和老巷茶馆相邻，现代高楼和百年古寺共存。
+            金堂、都江堰、青城山这些周边地方，山水清幽，也是成都人周末出游的好去处。
+            这里接纳快节奏打拼，也允许你慢慢生活。</p>
+        </section>
+    </div>
+    <footer>
+        天府成都 · 网页示例
+    </footer>
+</body>
+</html>
